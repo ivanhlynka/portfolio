@@ -2251,9 +2251,9 @@ footer {
       color: #fff;
       text-shadow: 0px 2px 3px #2d2d2d; }
 
-  .about-pg {
+  #about {
     width: 100%; }
-    .about-pg .about-information {
+    #about .about-information {
       width: 100%;
       height: 80%;
       display: -webkit-box;
@@ -2268,7 +2268,7 @@ footer {
       background-size: 70%;
       background-position: 80% 95%;
       background-repeat: no-repeat; }
-      .about-pg .about-information .title {
+      #about .about-information .title {
         max-width: 100%;
         margin-bottom: 20px;
         -webkit-transform: translateY(-50px) scale(0);
@@ -2278,10 +2278,10 @@ footer {
         transition: -webkit-transform 0.7s;
         transition: transform 0.7s;
         transition: transform 0.7s, -webkit-transform 0.7s; }
-      .about-pg .about-information .aboutTitleVisible {
+      #about .about-information .aboutTitleVisible {
         -webkit-transform: translateY(0px) scale(1);
         transform: translateX(0px) scale(1); }
-      .about-pg .about-information .title-box {
+      #about .about-information .title-box {
         width: 100%;
         padding-left: 10%;
         display: -webkit-box;
@@ -2296,20 +2296,20 @@ footer {
         -webkit-box-align: start;
             -ms-flex-align: start;
                 align-items: flex-start; }
-      .about-pg .about-information .text-box {
+      #about .about-information .text-box {
         width: 100%;
         padding: 3%; }
-      .about-pg .about-information .img-about {
+      #about .about-information .img-about {
         position: absolute;
         top: 2%;
         left: 35%; }
-    .about-pg .my-contacts {
+    #about .my-contacts {
       width: 100%;
       height: 20%;
       display: -webkit-box;
       display: -ms-flexbox;
       display: flex; }
-      .about-pg .my-contacts .items {
+      #about .my-contacts .items {
         width: 100%;
         list-style: none;
         display: -webkit-box;
@@ -2327,7 +2327,7 @@ footer {
         -webkit-box-align: center;
             -ms-flex-align: center;
                 align-items: center; }
-        .about-pg .my-contacts .items .item {
+        #about .my-contacts .items .item {
           width: 100%;
           font-family: "Slabo 27px", serif;
           font-size: 16px;
