@@ -315,6 +315,8 @@ header {
 
         h3 {
           display: inline-block;
+          
+      font-family: "Slabo 27px", serif;
         }
 
         .percent {
@@ -913,7 +915,7 @@ footer {
     height: 70vh;
 
     .work-information {
-      padding: 10%;
+      padding: 20% 0 0;
       width: 100%;
       height: 50%;
     }
@@ -930,21 +932,17 @@ footer {
 
     .work-box {
       width: 100%;
-      height: 50%;
-      display: flex;
-      flex-wrap: wrap;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
+      height: 75%;
+      background: #000;
     }
     .slider {
       position: relative;
       overflow: hidden;
       width: 100%;
-      height: 50%;
-      border-radius: 20px;
-      $height: 60%;
+      height: 100%;
+      $height: 100%;
       $width: 100%;
+      border-radius: 0;
 
       .slider__wrapper {
         display: flex;
@@ -954,7 +952,6 @@ footer {
 
         .slider__item {
           flex: 0 0 100%;
-          max-width: 100%;
           width: $width;
           height: $height;
 
@@ -979,12 +976,12 @@ footer {
     }
     .slider__control {
       position: absolute;
-      top: 95%;
+      top: 90%;
       display: flex;
       align-items: center;
       justify-content: center;
       width: 50%;
-      height: 20px;
+      height: 40px;
       opacity: 0.5;
       transform: translateY(-50%);
       background: rgba(0, 0, 0, 0.5);
@@ -1026,7 +1023,6 @@ footer {
 
   //...C.O.N.T.A.C.T...
   .contact-pg {
-
     background-attachment: scroll;
     .contact-information {
       width: 96%;
@@ -1108,7 +1104,7 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
-    
+
     .footer-pg {
       font-family: "PT Serif", serif;
       text-align: center;
