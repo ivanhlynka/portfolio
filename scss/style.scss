@@ -458,11 +458,9 @@ header {
   .contact-information {
     width: 100%;
     height: 100%;
-
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
-    align-items: center;
     background-image: url(../img/Group.png);
     background-size: 25%;
     background-position: 100% 80%;
@@ -478,7 +476,7 @@ header {
 
   .contact-info {
     width: 100%;
-    height: 25%;
+    height: 20%;
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
@@ -488,22 +486,21 @@ header {
 
   .contact-box {
     width: 100%;
-    height: auto;
-    margin-bottom: 20px;
+    height: 70%;
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 
-    .contact-form {
+    form {
       width: 40%;
       height: 100%;
       .form-lebel {
         color: currentColor;
       }
       .form-control {
-        min-height: 60px;
+        min-height: 50px;
         padding-left: 3%;
         border-width: 3px;
         border-color: currentColor;
@@ -1040,7 +1037,7 @@ footer {
       justify-content: center;
       align-items: center;
 
-      .contact-form {
+      form {
         width: 90%;
         height: 100%;
         .form-lebel {
@@ -1580,7 +1577,7 @@ footer {
       justify-content: center;
       align-items: center;
 
-      .contact-form {
+      form {
         width: 90%;
         height: 100%;
         .form-lebel {
@@ -2125,7 +2122,7 @@ footer {
       justify-content: center;
       align-items: center;
 
-      .contact-form {
+      form {
         width: 90%;
         height: 100%;
         .form-lebel {
@@ -2402,10 +2399,10 @@ footer {
           justify-content: center;
         }
         .instrumental-box {
-      width: 96%;
-      margin: 0 2%;
-      height: 50%;
-    }
+          width: 96%;
+          margin: 0 2%;
+          height: 50%;
+        }
       }
     }
 
@@ -2423,8 +2420,6 @@ footer {
       display: flex;
       justify-content: center;
     }
-
-    
 
     .percent {
       font-family: "Playfair Display", serif;
@@ -2674,7 +2669,7 @@ footer {
       justify-content: center;
       align-items: center;
 
-      .contact-form {
+      form {
         width: 90%;
         height: 100%;
         .form-lebel {
