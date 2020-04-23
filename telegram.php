@@ -1,8 +1,6 @@
 <?php
 
-/* 
-https://api.telegram.org/bot1033013361:AAFI3NsETDu9TKClWfVkogo0txrgtIoWmwU/getUpdates
-,
+/* https://api.telegram.org/bot1033013361:AAFI3NsETDu9TKClWfVkogo0txrgtIoWmwU/getUpdates,
 где, XXXXXXXXXXXXXXXXXXXXXXX - токен вашего бота, полученный ранее */
 
 $email = $_POST['user_email'];
@@ -11,7 +9,7 @@ $message = $_POST['user_message'];
 $token = "1033013361:AAFI3NsETDu9TKClWfVkogo0txrgtIoWmwU";
 $chat_id = "-373247226";
 $arr = array(
-  'Email' => $email
+  'Email: ' => $email
   'Телефон: ' => $phone,
   'Повідомлення: ' => $message,
 );
@@ -25,6 +23,6 @@ $sendToTelegram = fopen("https://api.telegram.org/bot{$token}/sendMessage?chat_i
 if ($sendToTelegram) {
   header('Location: thank-you.html');
 } else {
-  echo "404-404";
+  echo "Error";
 }
 ?>
