@@ -27,6 +27,10 @@
     <!-- My custom styles (optional) -->
     <link rel="stylesheet" href="css/style.css" />
 
+    <!-- Scrript_form -->
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+    <script src="ajax.js"></script>
+    
     <title>IvanGlinka</title>
   </head>
 
@@ -158,6 +162,11 @@
                   <li class="item">
                     <a href="viber://chat?number=+380969002300">
                       <i class="fab fa-viber"> : +380969002300</i></a
+                    >
+                  </li>
+                  <li class="item">
+                    <a href="https://wa.me/15551234567">
+                      <i class="fab fa-whatsapp"> : +380969002300</i></a
                     >
                   </li>
                   <li class="item">
@@ -314,44 +323,14 @@
                       <div class="slider__item">
                         <div class="work-item">
                           <a href="">
-                            <img
-                              class="work-img"
-                              src="./img/first.jpg"
-                              alt=""
-                            />
+                            <img class="work-img-1" alt="" />
                           </a>
                         </div>
                       </div>
                       <div class="slider__item">
                         <div class="work-item">
                           <a href="">
-                            <img
-                              class="work-img"
-                              src="./img/second.jpg"
-                              alt=""
-                            />
-                          </a>
-                        </div>
-                      </div>
-                      <div class="slider__item">
-                        <div class="work-item">
-                          <a href="">
-                            <img
-                              class="work-img"
-                              src="./img/first.jpg"
-                              alt=""
-                            />
-                          </a>
-                        </div>
-                      </div>
-                      <div class="slider__item">
-                        <div class="work-item">
-                          <a href="">
-                            <img
-                              class="work-img"
-                              src="./img/second.jpg"
-                              alt=""
-                            />
+                            <img class="work-img-2" alt="" />
                           </a>
                         </div>
                       </div>
@@ -386,11 +365,12 @@
                     Звязок зі мною.
                   </h1>
                   <p class="text">
-                    Дякую що завітали, ящко вам потрібна допомога звертайтесь!
+                    Дякую що завітали!
                   </p>
+                  <p class="text">Ящко вам потрібна допомога звертайтесь.</p>
                 </div>
                 <div class="contact-box">
-                  <form>
+                  <form method="post" id="ajax_form" action="" >
                     <div class="form-group">
                       <label class="form-lebel" for="exampleFormControlInput1">
                         <i class="fas fa-envelope"></i>
@@ -399,7 +379,7 @@
                       <input
                         type="email"
                         class="form-control"
-                        name="user_name"
+                        name="user_email"
                         id="exampleFormControlInput1"
                         placeholder="name@example.com"
                       />
@@ -430,7 +410,7 @@
                         name="user_message"
                         id="exampleFormControlTextarea1"
                         placeholder="Введіть текст"
-                        rows="7"
+                        rows="5"
                       ></textarea>
                     </div>
                     <div class="btn-box">
