@@ -105,9 +105,9 @@ body .about-pg {
     background-size: 40%;
     background-position: 100% 95%;
     background-repeat: no-repeat; }
-  body .about-pg .aboutTitleVisible {
-    -webkit-transform: translateY(0px) scale(1);
-    transform: translateX(0px) scale(1); }
+    body .about-pg .about-information .aboutTitleVisible {
+      -webkit-transform: translateY(0px) scale(1);
+      transform: translateX(0px) scale(1); }
   body .about-pg .title-box {
     width: 40%;
     display: -webkit-box;

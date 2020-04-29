@@ -137,11 +137,10 @@ body {
       background-size: 40%;
       background-position: 100% 95%;
       background-repeat: no-repeat;
-    }
-
-    .aboutTitleVisible {
-      -webkit-transform: translateY(0px) scale(1);
-      transform: translateX(0px) scale(1);
+      .aboutTitleVisible {
+        -webkit-transform: translateY(0px) scale(1);
+        transform: translateX(0px) scale(1);
+      }
     }
 
     .title-box {
@@ -857,7 +856,7 @@ body {
         font-family: "Playfair Display", serif;
         font-size: 20px;
         font-weight: 800;
-        background: $background;;
+        background: $background;
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
       }
@@ -2325,7 +2324,7 @@ body {
           list-style: none;
           display: flex;
           flex-wrap: wrap;
-          justify-content: space-around;
+          justify-content: flex-start;
           align-items: flex-start;
           .item {
             margin: 0 15px;
