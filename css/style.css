@@ -33,11 +33,8 @@ body .btn-outline-primary {
 body .to-up {
   position: fixed;
   bottom: -100%;
-  right: 0px;
-  width: 48px;
-  height: 48px;
+  right: 10px;
   border: 3px;
-  border-radius: 15px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -49,18 +46,14 @@ body .to-up {
   color: #0056b3;
   font-size: 32px; }
   body .to-up:hover {
-    width: 48px;
-    height: 48px;
-    border: 3px solid #0056b3;
-    border-radius: 15px;
     text-decoration: none;
-    font-size: 30px; }
+    font-size: 32px; }
   body .to-up.show {
     -webkit-transition: 0.5s;
     transition: 0.5s;
     bottom: 8px; }
   body .to-up .fas {
-    color: #ff0000; }
+    color: #0056b3; }
 body header {
   background-color: #0062cc; }
   body header .navbar .navbar-brand {
