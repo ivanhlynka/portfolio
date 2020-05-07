@@ -340,8 +340,8 @@ body .work-pg {
           -ms-flex-align: center;
               align-items: center; }
     body .work-pg .work-information .work-box {
-      width: 100%;
-      height: 75%;
+      width: 960px;
+      height: 540px;
       display: -webkit-box;
       display: -ms-flexbox;
       display: flex;
@@ -601,10 +601,6 @@ body footer {
     color: #0056b3;
     font-size: 32px; }
     body .to-up:hover {
-      width: 48px;
-      height: 48px;
-      border: 3px solid #0056b3;
-      border-radius: 15px;
       text-decoration: none;
       font-size: 30px; }
     body .to-up.show {
@@ -897,8 +893,8 @@ body footer {
             -ms-flex-align: center;
                 align-items: center; }
       body .work-pg .work-information .work-box {
-        width: 100%;
-        height: 75%;
+        width: 768px;
+        height: 432px;
         display: -webkit-box;
         display: -ms-flexbox;
         display: flex;
@@ -1157,10 +1153,6 @@ body footer {
     color: #0056b3;
     font-size: 32px; }
     body .to-up:hover {
-      width: 48px;
-      height: 48px;
-      border: 3px solid #0056b3;
-      border-radius: 15px;
       text-decoration: none;
       font-size: 30px; }
     body .to-up.show {
@@ -1452,8 +1444,8 @@ body footer {
             -ms-flex-align: center;
                 align-items: center; }
       body .work-pg .work-information .work-box {
-        width: 100%;
-        height: 75%;
+        width: 960px;
+        height: 540px;
         display: -webkit-box;
         display: -ms-flexbox;
         display: flex;
@@ -1712,10 +1704,6 @@ body footer {
     color: #0056b3;
     font-size: 32px; }
     body .to-up:hover {
-      width: 48px;
-      height: 48px;
-      border: 3px solid #0056b3;
-      border-radius: 15px;
       text-decoration: none;
       font-size: 30px; }
     body .to-up.show {
@@ -2268,10 +2256,6 @@ body footer {
     color: #0056b3;
     font-size: 32px; }
     body .to-up:hover {
-      width: 48px;
-      height: 48px;
-      border: 3px solid #0056b3;
-      border-radius: 15px;
       text-decoration: none;
       font-size: 30px; }
     body .to-up.show {

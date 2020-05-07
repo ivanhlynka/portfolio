@@ -341,8 +341,8 @@ body {
         align-items: center;
       }
       .work-box {
-        width: 100%;
-        height: 75%;
+        width: 960px;
+        height: 540px;
         display: flex;
         flex-wrap: wrap;
         flex-direction: column;
@@ -588,10 +588,6 @@ body {
       font-size: 32px;
 
       &:hover {
-        width: 48px;
-        height: 48px;
-        border: 3px solid $color;
-        border-radius: 15px;
         text-decoration: none;
         font-size: 30px;
       }
@@ -876,8 +872,8 @@ body {
           align-items: center;
         }
         .work-box {
-          width: 100%;
-          height: 75%;
+          width: 768px;
+          height: 432px;
           display: flex;
           flex-wrap: wrap;
           flex-direction: column;
@@ -1124,10 +1120,6 @@ body {
       font-size: 32px;
 
       &:hover {
-        width: 48px;
-        height: 48px;
-        border: 3px solid $color;
-        border-radius: 15px;
         text-decoration: none;
         font-size: 30px;
       }
@@ -1416,8 +1408,8 @@ body {
           align-items: center;
         }
         .work-box {
-          width: 100%;
-          height: 75%;
+          width: 960px;
+          height: 540px;
           display: flex;
           flex-wrap: wrap;
           flex-direction: column;
@@ -1664,10 +1656,6 @@ body {
       font-size: 32px;
 
       &:hover {
-        width: 48px;
-        height: 48px;
-        border: 3px solid $color;
-        border-radius: 15px;
         text-decoration: none;
         font-size: 30px;
       }
@@ -2205,10 +2193,6 @@ body {
       font-size: 32px;
 
       &:hover {
-        width: 48px;
-        height: 48px;
-        border: 3px solid $color;
-        border-radius: 15px;
         text-decoration: none;
         font-size: 30px;
       }
